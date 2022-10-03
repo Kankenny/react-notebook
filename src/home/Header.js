@@ -1,7 +1,9 @@
 import React from 'react'
 
+import HeaderFooterContainer from './HeaderFooterContainer'
+
 function Header() {
-	return <div>Header</div>
+	return <HeaderFooterContainer>My React Notebook</HeaderFooterContainer>
 }
 
 export default Header
