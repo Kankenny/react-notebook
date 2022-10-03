@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
 	return (
-		<div className="bg-amethyst min-h-screen flex flex-col justify-between">
+		<div className="bg-amethyst min-h-screen flex flex-col justify-between tracking-wide">
 			<Header />
 			<Routes></Routes>
 			<Footer />
