@@ -1,6 +1,6 @@
 # My React Notebook
 
-A library to summarize all the React Concepts I have encountered and learned
+A library to summarize all the React concepts I have encountered and learned
 
 ## Want to try yourself?
 
