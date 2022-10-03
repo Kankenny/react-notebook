@@ -10,7 +10,7 @@ Fork or clone this repository and see the following section
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install`
 
 Install repository dependencies
 
