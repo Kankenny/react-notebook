@@ -1,15 +1,10 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
-import Card from './Card'
-
-function ConceptContainer({ children, path }) {
+function ConceptContainer({ children }) {
 	return (
-		<Link to={path}>
-			<Card className="h-64 w-64 select-none hover:text-white duration-200">
-				{children}
-			</Card>
-		</Link>
+		<div className="min-h-[80vh] flex flex-col justify-center align-middle ">
+			{children}
+		</div>
 	)
 }
 

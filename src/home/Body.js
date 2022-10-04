@@ -1,14 +1,16 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import UseStateHookSimpleContainer from '../concepts/useStateHook-simple/UseStateHookSimpleContainer'
+import AllConcepts from '../concepts/AllConcepts'
+
 import UseStateHookSimpleLesson from '../concepts/useStateHook-simple/UseStateHookSimpleLesson'
 
-function Body({ children }) {
+function Body() {
 	return (
-		<div className="min-h-screen grid grid-cols-2 md:grid-cols-3 p-4">
+		<div className="p-4">
 			<Routes>
-				<Route path="*" element={<UseStateHookSimpleContainer />} />
+				<Route path="*" element={<AllConcepts />} />
+				<Route path="/all-concepts" element={<AllConcepts />} />
 				<Route
 					path="/useState-simple"
 					element={<UseStateHookSimpleLesson />}
