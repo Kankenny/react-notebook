@@ -15,6 +15,10 @@ function UseStateHookSimpleLesson() {
 		setCount((prevState) => prevState - 1)
 	}
 
+	const onResetHandler = () => {
+		setCount(0)
+	}
+
 	return (
 		<Fragment>
 			<Title title="useState Hook Simple" isConcept={true}></Title>
@@ -25,6 +29,7 @@ function UseStateHookSimpleLesson() {
 					</div>
 					<div className="flex justify-center space-x-10">
 						<Button onClick={onDecrementHandler}>-</Button>
+						<Button onClick={onResetHandler}>Reset</Button>
 						<Button onClick={onIncrementHandler}>+</Button>
 					</div>
 				</div>

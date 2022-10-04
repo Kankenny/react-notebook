@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import AllConcepts from '../concepts/AllConcepts'
 
 import UseStateHookSimpleLesson from '../concepts/useStateHook-simple/UseStateHookSimpleLesson'
+import UseStateHookComplexLesson from '../concepts/useStateHook-complex/UseStateHookComplexLesson'
 
 function Body() {
 	return (
@@ -17,7 +18,7 @@ function Body() {
 				/>
 				<Route
 					path="/useState-complex"
-					element={<UseStateHookSimpleLesson />}
+					element={<UseStateHookComplexLesson />}
 				/>
 			</Routes>
 		</div>
