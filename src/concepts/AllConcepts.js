@@ -9,7 +9,7 @@ function AllConcepts() {
 	])
 
 	return (
-		<div className="flex justify-around space-x-4 min-w-full">
+		<div className="flex justify-around space-x-4 min-w-full min-h-[85vh]">
 			{concepts}
 		</div>
 	)
