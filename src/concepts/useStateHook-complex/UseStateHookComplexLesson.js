@@ -7,7 +7,7 @@ import Title from '../../ui/Title'
 
 function UseStateHookComplexLesson() {
 	const [userInfo, setUserInfo] = useState({
-		firstName: '123',
+		firstName: '',
 		lastName: '',
 		email: '',
 		password: '',
@@ -48,30 +48,35 @@ function UseStateHookComplexLesson() {
 								name="firstName"
 								onChange={userInfoChangeHandler}
 								placeholder="First Name"
+								value={userInfo.firstName}
 								type="text"
 							/>
 							<Input
 								name="lastName"
 								onChange={userInfoChangeHandler}
 								placeholder="Last Name"
+								value={userInfo.lastName}
 								type="text"
 							/>
 							<Input
 								name="email"
 								onChange={userInfoChangeHandler}
 								placeholder="Email Address"
+								value={userInfo.email}
 								type="email"
 							/>
 							<Input
 								name="password"
 								onChange={userInfoChangeHandler}
 								placeholder="Password"
+								value={userInfo.password}
 								type="password"
 							/>
 							<Input
 								name="confirmPassword"
 								onChange={userInfoChangeHandler}
 								placeholder="Confirm Password"
+								value={userInfo.confirmPassword}
 								type="password"
 							/>
 							<Button onClick={onSubmitHandler}>
