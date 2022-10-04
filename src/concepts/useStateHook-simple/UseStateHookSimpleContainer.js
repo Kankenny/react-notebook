@@ -1,13 +1,13 @@
 import React from 'react'
 
-import ConceptContainer from '../../ui/ConceptContainer'
+import ConceptLinkContainer from '../../ui/ConceptLinkContainer'
 import Title from '../../ui/Title'
 
 function UseStateHookSimpleContainer() {
 	return (
-		<ConceptContainer path="useState-simple">
+		<ConceptLinkContainer path="useState-simple">
 			<Title title="useState Hook Simple" />
-		</ConceptContainer>
+		</ConceptLinkContainer>
 	)
 }
 
