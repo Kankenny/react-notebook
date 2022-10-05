@@ -71,6 +71,7 @@ function UseStateHookComplexLesson() {
 								placeholder="Password"
 								value={userInfo.password}
 								type="password"
+								autoComplete="on"
 							/>
 							<Input
 								name="confirmPassword"
@@ -78,6 +79,7 @@ function UseStateHookComplexLesson() {
 								placeholder="Confirm Password"
 								value={userInfo.confirmPassword}
 								type="password"
+								autoComplete="on"
 							/>
 							<Button onClick={onSubmitHandler}>
 								Submit
