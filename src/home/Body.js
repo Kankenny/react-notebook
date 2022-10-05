@@ -5,6 +5,7 @@ import AllConcepts from '../concepts/AllConcepts'
 
 import UseStateHookSimpleLesson from '../concepts/useStateHook-simple/UseStateHookSimpleLesson'
 import UseStateHookComplexLesson from '../concepts/useStateHook-complex/UseStateHookComplexLesson'
+import UseRefHookConcept from '../concepts/useRefHook/UseRefHookConcept'
 
 function Body() {
 	return (
@@ -20,6 +21,7 @@ function Body() {
 					path="/useState-complex"
 					element={<UseStateHookComplexLesson />}
 				/>
+				<Route path="/useRef" element={<UseRefHookConcept />} />
 			</Routes>
 		</div>
 	)
